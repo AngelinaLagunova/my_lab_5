@@ -1,0 +1,12 @@
+mixin createMenu(menu, active)
+    each value, key in menu
+        if active == key
+            a.active(href= value)= key
+        else
+            a(href= value)= key
+
+mixin createSection(item)
+    img(src= "img/" + item.image)
+    h3=item.header
+    p=item.text
+        a(href="#")
