@@ -8,7 +8,7 @@ header {
 nav {
   text-align: center;
 }
-@media (max-width: 600px) {
+@media (max-width: 800px) {
   nav {
     display: grid;
     grid-template-rows: 1fr 1fr;
@@ -22,7 +22,7 @@ nav a {
   color: #003153;
   text-decoration: none;
 }
-@media (max-width: 600px) {
+@media (max-width: 800px) {
   nav a {
     color: #afdafc;
   }
@@ -38,7 +38,7 @@ article {
   margin: 5px auto;
   grid-template-columns: repeat(2, 1fr);
 }
-@media (max-width: 600px) {
+@media (max-width: 800px) {
   article {
     grid-template-columns: 1fr;
   }
